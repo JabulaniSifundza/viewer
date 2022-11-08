@@ -22,7 +22,7 @@ export function Laptop(props) {
 		  <mesh geometry={nodes.Touchpad.geometry} material={materials['Touchpad 1']} />
 		  <mesh geometry={nodes.Body.geometry} material={materials['Body 3']} />
 		</group>
-	  </group>
+	</group>
 	)
 }
 
