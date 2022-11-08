@@ -24,10 +24,10 @@ export function Laptop(props) {
 		</group>
 	  </group>
 	)
-  }
+}
+
 function App() {
 	const [isOpen, setIsOpen] = useState(false);
-
 	return (
 		<div className="container">
 			<div className="preview">
@@ -43,13 +43,10 @@ function App() {
 				<label htmlFor="" className="switch">
 					<input type="checkbox" checked={isOpen}
 					onClick={()=> setIsOpen(!isOpen)} />
-
 					<span className="slider"></span>
 				</label>
 			</div>
 		</div>
 	)
-  
 }
-
 export default App;
